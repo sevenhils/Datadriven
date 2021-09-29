@@ -12,6 +12,7 @@ public class sendmail {
 
 		Email email= new SimpleEmail();
 		email.setHostName("smtp.yahoo.com");
+		System.out.println("connected to yahoo");
 		email.setSmtpPort(465);
 		email.setAuthenticator(new DefaultAuthenticator("akulavenkatesh666", "venky@789"));
 		email.setSSLOnConnect(true);
