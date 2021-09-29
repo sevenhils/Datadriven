@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="4" passed="1" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-08-31T12:21:49 IST" name="Default suite" finished-at="2021-08-31T12:23:05 IST" duration-ms="76345">
+  <suite started-at="2021-09-24T12:40:03 IST" name="Default suite" finished-at="2021-09-24T12:41:39 IST" duration-ms="96090">
     <groups>
     </groups>
-    <test started-at="2021-08-31T12:21:49 IST" name="Default test" finished-at="2021-08-31T12:23:05 IST" duration-ms="76345">
+    <test started-at="2021-09-24T12:40:03 IST" name="Default test" finished-at="2021-09-24T12:41:39 IST" duration-ms="96090">
       <class name="Datadriventest.Datadriventest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Datadriventest.Datadriventest@3f6db3fb]" started-at="2021-08-31T12:21:49 IST" name="setup" finished-at="2021-08-31T12:22:03 IST" duration-ms="13672" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Datadriventest.Datadriventest@18c5069b]" started-at="2021-09-24T12:40:03 IST" name="setup" finished-at="2021-09-24T12:40:38 IST" duration-ms="34476" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="logintest(java.lang.String,java.lang.String)[pri:0, instance:Datadriventest.Datadriventest@3f6db3fb]" started-at="2021-08-31T12:22:03 IST" name="logintest" data-provider="logincredentials" finished-at="2021-08-31T12:22:12 IST" duration-ms="9394" status="PASS">
+        <test-method signature="logintest(java.lang.String,java.lang.String)[pri:0, instance:Datadriventest.Datadriventest@18c5069b]" started-at="2021-09-24T12:40:38 IST" name="logintest" data-provider="logincredentials" finished-at="2021-09-24T12:40:44 IST" duration-ms="6442" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,11 +27,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintest -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:Datadriventest.Datadriventest@3f6db3fb]" started-at="2021-08-31T12:22:12 IST" name="setup" finished-at="2021-08-31T12:22:29 IST" duration-ms="16846" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Datadriventest.Datadriventest@18c5069b]" started-at="2021-09-24T12:40:44 IST" name="teardown" finished-at="2021-09-24T12:40:46 IST" duration-ms="1516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Datadriventest.Datadriventest@18c5069b]" started-at="2021-09-24T12:40:46 IST" name="setup" finished-at="2021-09-24T12:41:02 IST" duration-ms="16245" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="logintest(java.lang.String,java.lang.String)[pri:0, instance:Datadriventest.Datadriventest@3f6db3fb]" started-at="2021-08-31T12:22:29 IST" name="logintest" data-provider="logincredentials" finished-at="2021-08-31T12:22:31 IST" duration-ms="1811" status="FAIL">
+        <test-method signature="logintest(java.lang.String,java.lang.String)[pri:0, instance:Datadriventest.Datadriventest@18c5069b]" started-at="2021-09-24T12:41:02 IST" name="logintest" data-provider="logincredentials" finished-at="2021-09-24T12:41:03 IST" duration-ms="1291" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -55,7 +59,7 @@ at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:629)
-at Datadriventest.Datadriventest.logintest(Datadriventest.java:25)
+at Datadriventest.Datadriventest.logintest(Datadriventest.java:28)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -90,11 +94,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintest -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:Datadriventest.Datadriventest@3f6db3fb]" started-at="2021-08-31T12:22:31 IST" name="setup" finished-at="2021-08-31T12:22:44 IST" duration-ms="13652" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Datadriventest.Datadriventest@18c5069b]" started-at="2021-09-24T12:41:03 IST" name="teardown" finished-at="2021-09-24T12:41:05 IST" duration-ms="1492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Datadriventest.Datadriventest@18c5069b]" started-at="2021-09-24T12:41:05 IST" name="setup" finished-at="2021-09-24T12:41:18 IST" duration-ms="13742" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="logintest(java.lang.String,java.lang.String)[pri:0, instance:Datadriventest.Datadriventest@3f6db3fb]" started-at="2021-08-31T12:22:44 IST" name="logintest" data-provider="logincredentials" finished-at="2021-08-31T12:22:47 IST" duration-ms="2744" status="FAIL">
+        <test-method signature="logintest(java.lang.String,java.lang.String)[pri:0, instance:Datadriventest.Datadriventest@18c5069b]" started-at="2021-09-24T12:41:18 IST" name="logintest" data-provider="logincredentials" finished-at="2021-09-24T12:41:20 IST" duration-ms="1538" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -118,7 +126,7 @@ at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:629)
-at Datadriventest.Datadriventest.logintest(Datadriventest.java:25)
+at Datadriventest.Datadriventest.logintest(Datadriventest.java:28)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -153,11 +161,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintest -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:Datadriventest.Datadriventest@3f6db3fb]" started-at="2021-08-31T12:22:47 IST" name="setup" finished-at="2021-08-31T12:23:02 IST" duration-ms="15053" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Datadriventest.Datadriventest@18c5069b]" started-at="2021-09-24T12:41:20 IST" name="teardown" finished-at="2021-09-24T12:41:22 IST" duration-ms="1773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Datadriventest.Datadriventest@18c5069b]" started-at="2021-09-24T12:41:22 IST" name="setup" finished-at="2021-09-24T12:41:36 IST" duration-ms="14755" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="logintest(java.lang.String,java.lang.String)[pri:0, instance:Datadriventest.Datadriventest@3f6db3fb]" started-at="2021-08-31T12:23:02 IST" name="logintest" data-provider="logincredentials" finished-at="2021-08-31T12:23:05 IST" duration-ms="3043" status="FAIL">
+        <test-method signature="logintest(java.lang.String,java.lang.String)[pri:0, instance:Datadriventest.Datadriventest@18c5069b]" started-at="2021-09-24T12:41:36 IST" name="logintest" data-provider="logincredentials" finished-at="2021-09-24T12:41:38 IST" duration-ms="1252" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -181,7 +193,7 @@ at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:629)
-at Datadriventest.Datadriventest.logintest(Datadriventest.java:25)
+at Datadriventest.Datadriventest.logintest(Datadriventest.java:28)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -216,6 +228,10 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Datadriventest.Datadriventest@18c5069b]" started-at="2021-09-24T12:41:38 IST" name="teardown" finished-at="2021-09-24T12:41:39 IST" duration-ms="1446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
       </class> <!-- Datadriventest.Datadriventest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

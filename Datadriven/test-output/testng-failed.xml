@@ -5,6 +5,7 @@
     <classes>
       <class name="Datadriventest.Datadriventest">
         <methods>
+          <include name="teardown"/>
           <include name="logintest" invocation-numbers="1 2 3"/>
           <include name="setup"/>
         </methods>
